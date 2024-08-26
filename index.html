@@ -32,6 +32,7 @@
             }
         }
     </script>
+    
     <!-- Daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <style>
@@ -281,9 +282,39 @@
                     </div>
                 </div>
         </section>
+        <!-- my section achievements-->
+        <section id="achievements" class="py-24 bg-gradient-to-r from-blue-50 via-white to-blue-50">
+            <div class="max-w-7xl mx-auto text-center">
+              <h2 class="text-5xl font-bold mb-8 text-gray-800">Our Achievements</h2>
+              <p class="text-xl mb-12 text-gray-600">We are honored to be recognized for our exceptional work. Here are some of the awards, certifications, and features we've received over the years.</p>
+          
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+                <!-- Award card 1 -->
+                <div class="bg-white shadow-2xl rounded-lg p-8 flex flex-col items-center transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                  <img src="./assets/reward.png" alt="" class="h-20 mb-6">
+                  <h3 class="text-3xl font-semibold text-black-600 mb-3">Best Interior Design 2023</h3>
+                  <p class="text-gray-500">Awarded by Interior Design Magazine</p>
+                </div>
+                
+                <!-- Award card 2 -->
+                <div class="bg-white shadow-2xl rounded-lg p-8 flex flex-col items-center transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                  <img src="./assets/medal.png" alt="" class="h-20 mb-6">
+                  <h3 class="text-3xl font-semibold text-black-600 mb-3">Top Designer of the Year</h3>
+                  <p class="text-gray-500">Featured in Architectural Digest</p>
+                </div>
+                
+                <!-- Award 3 -->
+                <div class="bg-white shadow-2xl rounded-lg p-8 flex flex-col items-center transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                  <img src="./assets/medal (1).png" alt="" class="h-20 mb-6">
+                  <h3 class="text-3xl font-semibold text-black-600 mb-3">Sustainability Excellence Award</h3>
+                  <p class="text-gray-500">Recognized by Green Building Council</p>
+                </div>
+              </div>
+            </div>
+          </section>     
         <!-- Let's connect -->
-        <section class="bg-[url('./assets/bg.jpg')] bg-gray-100 rounded-lg p-8">
-            <div class="text-center mb-8">
+        <section class="bg-[url('./assets/bg.jpg')] bg-gray-100 rounded-lg p-8 mx-auto">
+            <div class="text-center mb-8 mx-auto">
                 <button class="btn btn-outline btn-sm mb-4 rounded-full font-bold bg-section-btn"><svg
                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6">
@@ -298,24 +329,24 @@
                 <form class="space-y-6">
                     <div class="grid grid-cols-1 md:grid-cols-6 gap-6">
                         <input type="name" class="input input-bordered w-full rounded-full lg:col-start-2 lg:col-span-2"
-                            placeholder="First Name*" required>
+                            placeholder="First Name" required>
                         <input type="name" class="input input-bordered w-full rounded-full lg:col-start-4 lg:col-span-2"
-                            placeholder="Last Name*" required>
+                            placeholder="Last Name" required>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-6 gap-6">
                         <input type="number"
                             class="input input-bordered w-full rounded-full lg:col-start-2 lg:col-span-2"
-                            placeholder="Phone Number*" required>
+                            placeholder="Phone Number" required>
                         <input type="email"
                             class="input input-bordered w-full rounded-full lg:col-start-4 lg:col-span-2"
-                            placeholder="Email*" required>
+                            placeholder="Email" required>
                     </div>
-                    <div class="ml-0 lg:ml-60">
+                    <div class="flex justify-center ">
                         <textarea placeholder="Write your message here"
-                            class="textarea textarea-bordered w-full lg:w-4/5 h-32 rounded-lg"></textarea>
+                            class="textarea textarea-bordered w-full lg:w-4/6 h-32 rounded-lg "></textarea>
                     </div>
-                    <div class="ml-0 lg:ml-60">
-                        <button class="btn bg-primary-btn text-black font-bold py-3 rounded-full w-full lg:w-4/5"
+                    <div class="flex justify-center">
+                        <button class="btn bg-primary-btn text-black font-bold py-3 rounded-full w-full lg:w-4/6"
                             type="submit">Send Mail
                             <i class="fa-solid fa-arrow-up text-white rotate-45 bg-black px-1 py-1 rounded-full"></i>
                             <button>
